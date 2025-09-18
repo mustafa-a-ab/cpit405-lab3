@@ -1,0 +1,59 @@
+/* Part 1: KAU Logo Styling */
+.image-preview img {
+  /* Add padding inside the frame */
+  padding: 20px;
+
+  /* Different border colors on each side */
+  border-top: 30px solid lightblue;    /* top side */
+  border-right: 30px solid lightpink;  /* right side */
+  border-bottom: 30px solid lightgreen;/* bottom side */
+  border-left: 30px solid wheat;       /* left side */
+
+  /* Optional: keep logo centered and neat */
+  display: block;
+  margin: auto;
+  background: white;
+}
+
+/* Part 2: CSS Selector Behavior */
+p > span { color: red; }
+#header span { color: pink; }
+span { color: green; }
+#header *:last-child { color: orange; }
+#header span:first-child:hover { color: blue; }
+
+/* Table styling */
+table {
+  border-collapse: collapse;
+  margin-top: 20px;
+  width: 100%;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background: #f9f9f9;
+}
+
+
+p > span {
+  color: red;
+}
+
+#header span {
+  color: pink;
+}
+
+span {
+  color: green;
+}
+
+#header *:last-child {
+  color: orange;
+}
+
+#header span:first-child:hover {
+  color: blue;
+}
